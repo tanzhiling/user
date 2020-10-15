@@ -1,0 +1,218 @@
+.page-store-detail {
+  font-size: 0.28rem;
+  background-color: #f8f8f8;
+  .title {
+    color: #333;
+    margin: 0.3rem 0;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    img {
+      width: 0.26rem;
+      margin-right: 0.14rem;
+    }
+  }
+  .banner {
+    position: relative;
+    width: 7.5rem;
+    height: 4.2rem;
+    .ant-carousel {
+      img {
+        width: 7.5rem;
+        height: 4.2rem;
+      }
+    }
+    .mask {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 10;
+      background: rgba(0, 0, 0, 0.4);
+      .hd {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0.2rem 0;
+        a {
+          img {
+            width: 0.6rem;
+            height: 0.6rem;
+          }
+        }
+        a:last-child {
+          img {
+            width: 1.32rem;
+          }
+        }
+      }
+      .bd {
+        display: flex;
+        justify-content: center;
+        margin: 1rem 0;
+        img {
+          width: 1.6rem;
+          height: 0.91rem;
+        }
+      }
+    }
+  }
+  .basic {
+    padding: 0.24rem;
+    background-color: #fff;
+    h4 {
+      font-weight: 700;
+      color: #333;
+      margin-bottom: 0.3rem;
+    }
+    .company {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .left {
+        background-color: #4da3e4;
+        color: #fff;
+        padding: 0 0.15rem;
+        height: 0.42rem;
+        display: flex;
+        align-items: center;
+        font-size: 0.24rem;
+        border-radius: 4px;
+        img {
+          width: 0.18rem;
+          height: 0.2rem;
+          margin-right: 0.1rem;
+        }
+      }
+      .right {
+        img:first-child {
+          width: 0.36rem;
+          height: 0.32rem;
+        }
+        img:last-child {
+          width: 0.33rem;
+          height: 0.32rem;
+          margin-left: 0.5rem;
+        }
+      }
+    }
+    .time,
+    .address,
+    .count {
+      color: #999;
+      margin: 0.24rem 0;
+    }
+    .address {
+      display: flex;
+      justify-content: space-between;
+    }
+    .count {
+      display: flex;
+      align-items: center;
+      img {
+        margin-right: 0.1rem;
+      }
+      .view {
+        margin-right: 0.6rem;
+        img {
+          width: 0.18rem;
+          height: 0.18rem;
+        }
+      }
+      .comment {
+        margin-right: 0.6rem;
+        img {
+          width: 0.2rem;
+          height: 0.18rem;
+        }
+      }
+      .star {
+        display: flex;
+        align-items: center;
+        img {
+          width: 1.38rem;
+          height: 0.22rem;
+        }
+      }
+    }
+  }
+  .tabs {
+    background-color: #fff;
+    margin: 0.14rem 0;
+    .ant-tabs-nav-list {
+      width: 5.6rem;
+      margin: auto;
+      justify-content: space-between;
+      .ant-tabs-tab {
+        justify-content: center;
+      }
+    }
+  }
+  .service {
+    padding: 0 0.24rem;
+
+    .hd {
+      display: flex;
+      justify-content: space-between;
+      .item {
+        width: 1.6rem;
+        height: 0.64rem;
+        border: 1px solid #d2d2d2;
+        color: #c8c8c8;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+      }
+      .active {
+        color: #4da3e4;
+        border-color: #4da3e4;
+      }
+    }
+    .list {
+      &-item {
+        padding: 0.4rem 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #333;
+        border-bottom: 1px solid #f2f2f2;
+        s {
+          margin-right: 0.7rem;
+          font-size: 0.24rem;
+          color: #999;
+        }
+      }
+    }
+    .all {
+      height: 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #4da3e4;
+      img {
+        width: 0.28rem;
+        height: 0.24rem;
+        margin-right: 0.1rem;
+      }
+    }
+  }
+  .store-introduction {
+    padding: 0 0.24rem;
+    .bd {
+      color: #666;
+      line-height: 0.48rem;
+    }
+  }
+  .buy-btn {
+    width: 7rem;
+    height: 0.9rem;
+    line-height: 0.9rem;
+    border-radius: 0.9rem;
+    background-color: #4da3e4;
+    color: #fff;
+    text-align: center;
+    margin: 0.4rem auto;
+    font-size: 0.28rem;
+  }
+}

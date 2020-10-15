@@ -6,4 +6,7 @@ export default defineConfig({
     type: 'none',
   },
   routes: routes,
+  devServer: {
+    port: 9000,
+  },
 });

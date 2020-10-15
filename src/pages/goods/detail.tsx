@@ -1,5 +1,8 @@
+/**
+ * 产品详情
+ */
 import React from 'react';
-import {} from 'antd';
+import { Comment } from '@/components';
 import './detail.less';
 
 const GoodsDetail = () => {
@@ -12,13 +15,13 @@ const GoodsDetail = () => {
         </div>
         <div className="scroll-list">
           <div className="scroll-list-item">
-            <img src={require('@/assets/goods/goods.png')} />
+            <img src={require('@/assets/img-2.png')} />
           </div>
           <div className="scroll-list-item">
-            <img src={require('@/assets/goods/goods.png')} />
+            <img src={require('@/assets/img-2.png')} />
           </div>
           <div className="scroll-list-item">
-            <img src={require('@/assets/goods/goods.png')} />
+            <img src={require('@/assets/img-2.png')} />
           </div>
         </div>
         <div className="desc">
@@ -72,7 +75,7 @@ const GoodsDetail = () => {
             商户信息
           </div>
           <div className="card">
-            <img className="sd" src={require('@/assets/goods/shop.png')} />
+            <img className="sd" src={require('@/assets/img-3.png')} />
             <div className="info">
               <h4>威洁士高端汽车养护会所</h4>
               <div className="star">
@@ -86,31 +89,8 @@ const GoodsDetail = () => {
           </div>
         </div>
       </div>
-      <div className="comment-list">
-        <div className="title">
-          <span className="left">
-            <img src={require('@/assets/icon-6.png')} />
-            大家都这么说
-          </span>
-          <span className="right">
-            查看全部
-            <img className="arrow" src={require('@/assets/arrow.png')} />
-          </span>
-        </div>
-        <div className="card">
-          <div className="card-header">
-            <div className="card-header-left">
-              <img src={require('@/assets/icon-7.png')} />
-              <div className="name">清***林</div>
-              <div className="star">
-                <img src={require('@/assets/icon-9.png')} />
-                5.0
-              </div>
-            </div>
-            <div className="card-header-right">五分钟前</div>
-          </div>
-        </div>
-      </div>
+      <Comment />
+      <div className="buy-btn">立即购买</div>
     </div>
   );
 };
