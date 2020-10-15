@@ -28,11 +28,11 @@ const GoodsDetail = () => {
           </div>
           <div className="comment">
             <div className="comment-item">
-              <img src={require('@/assets/goods/icon-1.png')} />
+              <img src={require('@/assets/icon-1.png')} />
               19542
             </div>
             <div className="comment-item">
-              <img src={require('@/assets/goods/icon-2.png')} />
+              <img src={require('@/assets/icon-2.png')} />
               13561
             </div>
           </div>
@@ -41,7 +41,7 @@ const GoodsDetail = () => {
       <div className="content">
         <div className="service">
           <div className="title">
-            <img src={require('@/assets/goods/icon-3.png')} />
+            <img src={require('@/assets/icon-3.png')} />
             服务内容
           </div>
           <ul className="list">
@@ -61,14 +61,14 @@ const GoodsDetail = () => {
         </div>
         <div className="buy">
           <div className="title">
-            <img src={require('@/assets/goods/icon-4.png')} />
+            <img src={require('@/assets/icon-4.png')} />
             购买须知
           </div>
           <div className="remark">打蜡后三天不宜洗车</div>
         </div>
         <div className="shop">
           <div className="title">
-            <img src={require('@/assets/goods/icon-5.png')} />
+            <img src={require('@/assets/icon-5.png')} />
             商户信息
           </div>
           <div className="card">
@@ -76,7 +76,7 @@ const GoodsDetail = () => {
             <div className="info">
               <h4>威洁士高端汽车养护会所</h4>
               <div className="star">
-                <img src={require('@/assets/goods/icon-9.png')} />
+                <img src={require('@/assets/icon-9.png')} />
                 5.0
               </div>
               <div className="address">重庆市渝中区鹅岭轻轨站1号出口旁</div>
@@ -89,7 +89,7 @@ const GoodsDetail = () => {
       <div className="comment-list">
         <div className="title">
           <span className="left">
-            <img src={require('@/assets/goods/icon-6.png')} />
+            <img src={require('@/assets/icon-6.png')} />
             大家都这么说
           </span>
           <span className="right">
@@ -100,10 +100,10 @@ const GoodsDetail = () => {
         <div className="card">
           <div className="card-header">
             <div className="card-header-left">
-              <img src={require('@/assets/goods/icon-7.png')} />
+              <img src={require('@/assets/icon-7.png')} />
               <div className="name">清***林</div>
               <div className="star">
-                <img src={require('@/assets/goods/icon-9.png')} />
+                <img src={require('@/assets/icon-9.png')} />
                 5.0
               </div>
             </div>
